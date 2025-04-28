@@ -1,12 +1,12 @@
-# MyCryptoProtocol (MCP)
+DCPAI
 
 ## The Decentralized Intelligence Layer for Crypto
 
-MyCryptoProtocol (MCP) is a protocol-level framework that connects AI agents (via Model Context Protocols) with crypto-native services, enabling seamless, standardized interaction across trading, DeFi, governance, and social platforms. It acts as an intelligent coordination layer, supporting discoverability, authentication, and execution across modular AI agents.
+DCPAI is a protocol-level framework that connects AI agents (via Model Context Protocols) with crypto-native services, enabling seamless, standardized interaction across trading, DeFi, governance, and social platforms. It acts as an intelligent coordination layer, supporting discoverability, authentication, and execution across modular AI agents.
 
 ## Key Features
 
-- **MCP Registry Layer**: Access curated AI agent backends through a standardized protocol
+- **DCPAI Registry Layer**: Access curated AI agent backends through a standardized protocol
 - **Agent-Based Execution**: Natural language processing with intelligent tool fallback
 - **Modular & Interoperable**: Works with Solana, EVM chains, L2s, and off-chain systems
 - **Governance-Ready**: Tokenized curation and incentive mechanisms
@@ -19,19 +19,19 @@ AI integration with crypto is fragmented and non-scalable due to bespoke integra
 
 This monorepo contains the following components:
 
-- [**mcp-core**](./mcp-core/): Core protocol logic with Solana programs for registry, permissions, and execution tracking
-- [**mcp-agents**](./mcp-agents/): Agent templates and execution engines with prebuilt AI agents
-- [**mcp-server**](./mcp-server/): Reference MCP server implementation with context handling and wallet integration
-- [**mcp-examples**](./mcp-examples/): Full workflow examples using real-world Solana services
-- [**mcp-docs**](./mcp-docs/): Protocol documentation, architecture, and tutorials
+- [**DCPAI-core**](./DCPAI-core/): Core protocol logic with Solana programs for registry, permissions, and execution tracking
+- [**mcp-agents**](./DCPAI-agents/): Agent templates and execution engines with prebuilt AI agents
+- [**mcp-server**](./DCPAI-server/): Reference MCP server implementation with context handling and wallet integration
+- [**mcp-examples**](./DCPAI-examples/): Full workflow examples using real-world Solana services
+- [**DCPAI-docs**](./DCPAI-docs/): Protocol documentation, architecture, and tutorials
 
 ## Why Now?
 
 AI is centralized, crypto is decentralized. This protocol bridges them, leveraging AI's usability and crypto's openness. The goal is to build a decentralized, AI-native interface that works like an OS for crypto workflows.
 
-## MCP Defined
+## DCPAI Defined
 
-Each MCP server exposes context-aware, domain-specific functionality (e.g., Binance, Twitter, smart contracts) in a machine-readable format, enabling AI agents to interact securely and intelligently.
+Each DCPAI server exposes context-aware, domain-specific functionality (e.g., Binance, Twitter, smart contracts) in a machine-readable format, enabling AI agents to interact securely and intelligently.
 
 ## Token Model & Ecosystem
 
@@ -39,7 +39,7 @@ $MCP powers decentralized governance, usage, and staking, with network effects t
 
 ## Getting Started
 
-To start developing with MCP:
+To start developing with DCPAI:
 
 ```bash
 # Clone the repository
