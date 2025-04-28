@@ -20,9 +20,9 @@ AI integration with crypto is fragmented and non-scalable due to bespoke integra
 This monorepo contains the following components:
 
 - [**DCPAI-core**](./DCPAI-core/): Core protocol logic with Solana programs for registry, permissions, and execution tracking
-- [**mcp-agents**](./DCPAI-agents/): Agent templates and execution engines with prebuilt AI agents
-- [**mcp-server**](./DCPAI-server/): Reference MCP server implementation with context handling and wallet integration
-- [**mcp-examples**](./DCPAI-examples/): Full workflow examples using real-world Solana services
+- [**DCPAI-agents**](./DCPAI-agents/): Agent templates and execution engines with prebuilt AI agents
+- [**DCPAI-server**](./DCPAI-server/): Reference MCP server implementation with context handling and wallet integration
+- [**DCPAI-examples**](./DCPAI-examples/): Full workflow examples using real-world Solana services
 - [**DCPAI-docs**](./DCPAI-docs/): Protocol documentation, architecture, and tutorials
 
 ## Why Now?
