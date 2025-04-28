@@ -1,51 +1,82 @@
-# Introduction to GitHub
+# MyCryptoProtocol (MCP)
 
-_Get started using GitHub in less than an hour._
+## The Decentralized Intelligence Layer for Crypto
 
-## Welcome
+MyCryptoProtocol (MCP) is a protocol-level framework that connects AI agents (via Model Context Protocols) with crypto-native services, enabling seamless, standardized interaction across trading, DeFi, governance, and social platforms. It acts as an intelligent coordination layer, supporting discoverability, authentication, and execution across modular AI agents.
 
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
+## Key Features
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This exercise is a great introduction for your first day on GitHub.
-- **How long**: This exercise takes less than one hour to complete.
+- **MCP Registry Layer**: Access curated AI agent backends through a standardized protocol
+- **Agent-Based Execution**: Natural language processing with intelligent tool fallback
+- **Modular & Interoperable**: Works with Solana, EVM chains, L2s, and off-chain systems
+- **Governance-Ready**: Tokenized curation and incentive mechanisms
 
-In this exercise, you will:
+## Problem & Solution
 
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
+AI integration with crypto is fragmented and non-scalable due to bespoke integrations. MCP standardizes this via a unified protocol that simplifies agent-to-service interaction, boosting accessibility and scalability.
 
-### How to start this exercise
+## Repository Structure
 
-1. Right-click **Copy Exercise** and open the link in a new tab.
+This monorepo contains the following components:
 
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
+- [**mcp-core**](./mcp-core/): Core protocol logic with Solana programs for registry, permissions, and execution tracking
+- [**mcp-agents**](./mcp-agents/): Agent templates and execution engines with prebuilt AI agents
+- [**mcp-server**](./mcp-server/): Reference MCP server implementation with context handling and wallet integration
+- [**mcp-examples**](./mcp-examples/): Full workflow examples using real-world Solana services
+- [**mcp-docs**](./mcp-docs/): Protocol documentation, architecture, and tutorials
 
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.chttps://github.com/4918221/DCPAI/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
+## Why Now?
 
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
+AI is centralized, crypto is decentralized. This protocol bridges them, leveraging AI's usability and crypto's openness. The goal is to build a decentralized, AI-native interface that works like an OS for crypto workflows.
 
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
+## MCP Defined
 
-   <a id="start-exercise" href="https://github.com/4918221/DCPAI/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
+Each MCP server exposes context-aware, domain-specific functionality (e.g., Binance, Twitter, smart contracts) in a machine-readable format, enabling AI agents to interact securely and intelligently.
 
-> [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
+## Token Model & Ecosystem
 
----
+$MCP powers decentralized governance, usage, and staking, with network effects tied directly to protocol utility, not speculation.
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+## Getting Started
+
+To start developing with MCP:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-org/mycryptoprotocol.git
+cd mycryptoprotocol
+
+# Install dependencies for all packages
+npm install
+
+# Build the core components
+cd mcp-core
+anchor build
+
+# Run examples
+cd ../mcp-examples
+npm run start:jupiter
+```
+
+## Launch Strategy
+
+Started with an anonymous dev sharing ideas on social media. Transparent, community-first, and built in public with a light-touch rollout—no hype, no VC dominance, just real infrastructure and community involvement.
+
+## Development Tools
+
+- Solana CLI + Anchor (for smart contracts)
+- TypeScript/JavaScript (for client applications)
+- WebSockets/RPC listeners (for real-time events)
+- gRPC/REST APIs (for service communication)
+
+## Vision
+
+MyCryptoProtocol is building the decentralized intelligence layer for crypto, where agents serve people, not platforms.
+
+## Contributing
+
+We welcome contributions! Please see the [CONTRIBUTING.md](./CONTRIBUTING.md) file for guidelines.
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
